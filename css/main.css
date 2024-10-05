@@ -1,0 +1,349 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/public-sans-v15-latin-100.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/public-sans-v15-latin-300.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'); 
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/public-sans-v15-latin-500.woff2') format('woff2'); 
+}
+
+body{
+    font-family: 'Public Sans' , sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.site-header{
+    position: fixed;
+}
+
+.header {
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.left-header {
+    padding: 16px;
+    margin-left: 100px;
+}
+.right-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.header-link {
+    padding: 16px;
+    color: #9597A5;
+    border: 2px solid transparent;
+    transition: all 0.4s;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.header-link:hover{
+    border-bottom: 2px solid  #33D35E ;
+    color: black;
+}
+.header-link:active{
+    background-color: #191919B2;
+    color: white;
+    border: transparent;
+}
+.header-btn {
+    margin: 5px;
+    padding: 15px 26px;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    color: white;
+    margin-left: 226px;
+    transition: all 0.4s;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-right: 50px;
+}
+
+.header-btn:hover{
+    opacity: 0.6;
+}
+
+.header-btn:active{
+    opacity: 0.9;
+}
+
+.section1{
+    background-image: url("../images/hero-bg-desktop.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 790px , 100px ;
+}
+
+.section1-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1-text{
+    width: 460px;
+    height: 316px;
+}
+.section1-text h1{
+    font-size: 56px;
+    font-weight: 100;
+    line-height: 64px;
+    letter-spacing: -1px;
+}
+
+.section1-text p{
+    margin-top: 24px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9597A5;
+}
+
+.section1-text a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 10px 26px;
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    border-radius: 20px;
+    color: white;
+    transition: all 0.4s;
+}
+.section1-text a:hover{
+    opacity: 0.6;
+}
+.section1-text a:active{
+    opacity: 0.9;
+}
+.section2{
+    background-color: #F4F5F7;
+}
+.section2-text{
+    width: 620px;
+    height: 136px;
+}
+.section2-text h2{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+.section2-text p{
+font-size: 18px;
+line-height: 28px;
+color: #9597A5;
+}
+
+.section2-content-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 72px;
+    gap: 50px;
+}
+.section2-box {
+    margin-bottom: 100px;
+    width: 265px;
+    height: 278px;
+}
+.section2-box h2{
+font-size: 24px;
+font-weight: 100;
+line-height: 28px;
+margin-top: 40px;
+margin-bottom: 26px;
+transition: all 0.3s;
+cursor: pointer;
+}
+
+.section2-box h2:hover{
+    color: #30C88F;
+}
+.section2-box p{
+font-size: 16px;
+line-height: 26px;
+color: #9597A5;
+transition: all 0.3s;
+cursor: pointer;
+}
+
+.section2-box p:hover{
+    color: #33D35E;
+}
+
+
+
+
+
+
+
+
+
+
+.section3{
+    background-color: #eeeeee;
+}
+.section3-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3-h2{
+    padding-top: 80px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 64px;
+    color: #2D314D;
+}
+.section3-box {
+    width: 255px;
+    height: 395px;
+    border-radius: 5px;
+    margin-bottom: 80px;
+    background-color: white;
+}
+
+.section3-text{
+    width: 207px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.section3-box {
+    font-size: 10px;
+    line-height: 18px;
+    color: #9597A5;
+}
+
+
+.section3-box h2{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #2D314D;
+    margin-top: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.section3-box h2:hover{
+    color: #30C88F;
+}
+.section3-box p{
+    color: #9597A5;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.section3-box p:hover{
+    color: #33D35E;
+}
+
+
+.footer{
+    background-color: #2D314D;
+}
+.site-footer{
+    padding: 48px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    width: 635px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    gap: 13px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    cursor: pointer;
+}
+.footer-list li{
+    transition: all 0.4s;
+}
+.footer-list li:hover{
+    color: #30C88F;
+}
+
+.footer-right{
+    width: 250px;
+    height: 94px;
+    text-align: right;
+}
+
+.footer-right a{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        padding: 10px 26px;
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+        border-radius: 20px;
+        color: white;
+        transition: all 0.4s;
+        margin-bottom: 24px;
+        cursor: pointer;
+    }
+    .footer-right a:hover{
+        opacity: 0.6;
+    }
+    .footer-right a:active{
+        opacity: 0.9;
+    }
+
+    .footer-right p{
+        color: #9597A5;
+        margin-top: 24px;
+    }
